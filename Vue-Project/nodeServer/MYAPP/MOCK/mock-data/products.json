@@ -1,0 +1,32 @@
+[{
+        "method": "get",
+        "url": "/tt/products/drinks",
+        "response": {
+            "errorCode": 0,
+            "errorMsg": "",
+            "data": [{
+                "type": "cola",
+                "num": 10,
+                "isFatherDrink": false
+            }]
+        }
+    },
+    {
+        "method": "get",
+        "url": "/tt/products/foods",
+        "response": {
+            "errorCode": 0,
+            "errorMsg": "",
+            "data": [{
+                "type": "noodles",
+                "num": 8
+            }, {
+                "type": "bread",
+                "num": 7
+            }, {
+                "type": "meet",
+                "num": 6
+            }]
+        }
+    }
+]

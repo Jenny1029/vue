@@ -1,0 +1,51 @@
+$active_color: #f01414;
+$theme-color: #20a0ff;
+.active {
+    color: $active_color;
+}
+li{
+    list-style: none;
+}
+.table-container{
+    box-shadow: 0 0 10px #ccc;
+    & tr:nth-child(2n+1){
+        background-color: #fff;
+    }
+
+    & th{
+        background-color: $theme-color;
+        color:#fff;
+    }
+
+    & td{
+        font-size: 80%;
+    }
+
+    & th, & td{
+        width: 1.25%;
+        padding: 12px 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 14px;
+    }
+}
+.tt-button{
+    display: inline-block;
+    line-height: 1px;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #20a0ff;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 12px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #20a0ff;
+    border-color: #20a0ff;
+}
+.tt-button:hover{
+    opacity: 0.8;
+}
